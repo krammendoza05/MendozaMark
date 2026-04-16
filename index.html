@@ -138,6 +138,13 @@ section:not(#hero){padding:6rem 4rem}
 /* PROJECTS */
 #projects{background:var(--dark)}
 .pg{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:1.75rem}
+
+/* Drive link overlay badge */
+.pc-drive-badge{position:absolute;top:14px;right:14px;z-index:10;display:flex;align-items:center;gap:5px;background:rgba(15,168,107,.12);border:.5px solid rgba(15,168,107,.3);border-radius:40px;padding:5px 11px;font-size:10px;font-weight:600;letter-spacing:.08em;color:var(--green);text-transform:uppercase;opacity:0;transform:translateY(-4px);transition:opacity .25s,transform .25s,background .2s}
+a:hover .pc-drive-badge{opacity:1;transform:translateY(0)}
+a:hover .pc{border-color:rgba(15,168,107,.4)!important;box-shadow:0 0 0 1px rgba(15,168,107,.15),0 20px 60px rgba(15,168,107,.1)!important}
+a .pc{cursor:none}
+
 .pc{background:rgba(13,13,28,.9);border:.5px solid var(--border);border-radius:20px;overflow:hidden;position:relative;cursor:none;transition:border-color .3s,transform .3s,box-shadow .3s}
 .pc:hover{border-color:rgba(15,168,107,.4);transform:translateY(-6px);box-shadow:0 24px 60px rgba(0,0,0,.5),0 0 0 .5px rgba(15,168,107,.15)}
 /* Animated gradient top border */
@@ -452,7 +459,8 @@ footer span{color:var(--green)}
     <div class="pg">
 
       <!-- Project Card: AI Content Repurposing -->
-      <div class="pc fu">
+      <a href="https://drive.google.com/drive/folders/1jta7cMw7fXIA0yXstac7uK6CvqrVYvKu" target="_blank" rel="noopener" style="text-decoration:none;display:block;color:inherit"><div class="pc fu">
+        <div class="pc-drive-badge">↗ View on Drive</div>
         <!-- Animated Flow Preview -->
         <div class="pv">
           <div class="pv-canvas" id="pv1">
@@ -541,10 +549,11 @@ footer span{color:var(--green)}
             </div>
           </div>
         </div>
-      </div>
+      </div></a>
 
       <!-- Project Card: Lead Engagement Workflow -->
-      <div class="pc fu" style="transition-delay:.15s">
+      <a href="https://drive.google.com/drive/folders/1lUB3cOdTk7-5QUKpypEdCHfBe5dF2IS9" target="_blank" rel="noopener" style="text-decoration:none;display:block;color:inherit"><div class="pc fu" style="transition-delay:.15s">
+        <div class="pc-drive-badge">↗ View on Drive</div>
         <!-- Animated Flow Preview -->
         <div class="pv">
           <div class="pv-canvas">
@@ -659,10 +668,11 @@ footer span{color:var(--green)}
             </div>
           </div>
         </div>
-      </div>
+      </div></a>
 
       <!-- Project Card: Export Xero → Asana -->
-      <div class="pc fu" style="transition-delay:.3s">
+      <a href="https://drive.google.com/drive/folders/1dcr3j9_j-TG44UZGZI7M4udVkm1NEAGB" target="_blank" rel="noopener" style="text-decoration:none;display:block;color:inherit"><div class="pc fu" style="transition-delay:.3s">
+        <div class="pc-drive-badge">↗ View on Drive</div>
         <div class="pv">
           <div class="pv-canvas">
             <svg viewBox="0 0 340 200" preserveAspectRatio="none" style="position:absolute;inset:0;width:100%;height:100%">
@@ -721,10 +731,11 @@ footer span{color:var(--green)}
             </div>
           </div>
         </div>
-      </div>
+      </div></a>
 
       <!-- Project Card: Auto Sort Gmail Attachments -->
-      <div class="pc fu" style="transition-delay:.1s">
+      <a href="https://drive.google.com/drive/folders/1TAL-fFI0iOA8R6K5ncdOXgdTRM-DW8N8" target="_blank" rel="noopener" style="text-decoration:none;display:block;color:inherit"><div class="pc fu" style="transition-delay:.1s">
+        <div class="pc-drive-badge">↗ View on Drive</div>
         <div class="pv">
           <div class="pv-canvas">
             <svg viewBox="0 0 340 200" preserveAspectRatio="none" style="position:absolute;inset:0;width:100%;height:100%">
@@ -781,10 +792,11 @@ footer span{color:var(--green)}
             </div>
           </div>
         </div>
-      </div>
+      </div></a>
 
       <!-- Project Card: Smart AI File Classification -->
-      <div class="pc fu" style="transition-delay:.2s">
+      <a href="https://drive.google.com/drive/folders/17fL6IjTaGm9z7uWqdZFWWGDL3qiWuF2c" target="_blank" rel="noopener" style="text-decoration:none;display:block;color:inherit"><div class="pc fu" style="transition-delay:.2s">
+        <div class="pc-drive-badge">↗ View on Drive</div>
         <div class="pv">
           <div class="pv-canvas">
             <svg viewBox="0 0 340 200" preserveAspectRatio="none" style="position:absolute;inset:0;width:100%;height:100%">
@@ -847,10 +859,11 @@ footer span{color:var(--green)}
             </div>
           </div>
         </div>
-      </div>
+      </div></a>
 
       <!-- Project Card: AI Receptionist -->
-      <div class="pc fu" style="transition-delay:.1s">
+      <a href="https://drive.google.com/drive/folders/1LZpyrT32vngNPtcxtaRIKV5d-3mLaPWk" target="_blank" rel="noopener" style="text-decoration:none;display:block;color:inherit"><div class="pc fu" style="transition-delay:.1s">
+        <div class="pc-drive-badge">↗ View on Drive</div>
         <div class="pv">
           <div class="pv-canvas">
             <svg viewBox="0 0 340 200" preserveAspectRatio="none" style="position:absolute;inset:0;width:100%;height:100%">
@@ -911,10 +924,11 @@ footer span{color:var(--green)}
             </div>
           </div>
         </div>
-      </div>
+      </div></a>
 
       <!-- Project Card: AI Agent for Facebook -->
-      <div class="pc fu" style="transition-delay:.2s">
+      <a href="https://drive.google.com/drive/folders/1Pb_k_YdXsoDSs01zz6lXQtQer2AWMJ8l" target="_blank" rel="noopener" style="text-decoration:none;display:block;color:inherit"><div class="pc fu" style="transition-delay:.2s">
+        <div class="pc-drive-badge">↗ View on Drive</div>
         <div class="pv">
           <div class="pv-canvas">
             <svg viewBox="0 0 340 200" preserveAspectRatio="none" style="position:absolute;inset:0;width:100%;height:100%">
@@ -971,10 +985,11 @@ footer span{color:var(--green)}
             </div>
           </div>
         </div>
-      </div>
+      </div></a>
 
       <!-- Project Card: n8n ASMR Creator -->
-      <div class="pc fu" style="transition-delay:.3s">
+      <a href="https://drive.google.com/drive/folders/1l0ieA6TGNLbkoWvLUQfgBgCHDqVBBf_6" target="_blank" rel="noopener" style="text-decoration:none;display:block;color:inherit"><div class="pc fu" style="transition-delay:.3s">
+        <div class="pc-drive-badge">↗ View on Drive</div>
         <div class="pv">
           <div class="pv-canvas">
             <svg viewBox="0 0 340 200" preserveAspectRatio="none" style="position:absolute;inset:0;width:100%;height:100%">
@@ -1043,6 +1058,7 @@ footer span{color:var(--green)}
 
       <!-- Placeholder card for future project -->
       <div class="pc fu" style="transition-delay:.15s;opacity:.55;border-style:dashed">
+        <div class="pc-drive-badge">↗ View on Drive</div>
         <div class="pv" style="display:flex;align-items:center;justify-content:center;flex-direction:column;gap:10px">
           <div style="width:48px;height:48px;border-radius:50%;border:.5px dashed rgba(15,168,107,.4);display:flex;align-items:center;justify-content:center;font-size:22px;animation:bka 2s ease-in-out infinite">+</div>
           <div style="font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)">More coming soon</div>
